@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f1c43d3d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contact: Julio Cesar</title>
+</head>
+<body>
+    <main>
+        <div class="information">
+            <header>
+                <img src="/images/verde-mini.jpeg" alt="foto perfil" height="100px" width="auto">
+                <br>
+                <br>
+                <ul class="redes">
+                    <li><a href="https://www.facebook.com/juliocesar.rivillas" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/juliorivillas/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/Julio-Calderon" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </header>
+            <nav>
+                <ul><a href="/index.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a></ul>
+                <ul><a href="about-me.html"><i class="fa-regular fa-user"></i> About me</a></ul>
+                <ul><a href="portfolio.html"><i class="fa-sharp fa-solid fa-folder-open"></i> Portfolio</a></ul>
+                <ul><a href="skills.html"><i class="fa-sharp fa-solid fa-chart-bar"></i> Skills</a></ul>
+                <ul><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></ul>
+            </nav>
+            <footer>
+                <p>© Copyright 2023</p>
+                <p>Designed by Julio Cesar</p>
+            </footer>
+        </div>
+        <div class="contenedor-form">
+            <form action="" class="form">
+                <div class="form-header">
+                    <h1 class="form-title">Contact me</h1>
+                </div>
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-input" placeholder="Name" name="name" id="name" required>
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-input" placeholder="Email" name="email" id="email" required>
+                <label for="contry">Country</label>
+                <select id="contry">
+                <option value="">Select country</option>
+                <option value="1">Argentina</option>
+                <option value="2">Chile</option>
+                <option value="3">Ecuador</option>
+                <option value="4">Colombia</option>
+                <option value="5">Uruguay</option>
+                <option value="6">Venezuela</option>
+            </select>   
+                <label for="number" class="form-input" class="form-label">Number of contact</label>
+                <input type="tel" name="number" id="number" placeholder="Number of contact" required>
+                <label for="comentarios"class="form-label">Message</label>
+                <textarea name="comentarios" class="form-textarea" id="comentarios" placeholder="Message" cols="15" rows="5"></textarea>
+                <input type="submit" class="btn-submit" value="Send messaje">
+            </form>
+        </div>
+
+    </main>
+</body>
+</html>
