@@ -70,7 +70,7 @@ footer {
 
 .img-fondo {
     filter: grayscale(100%);
-    background-image: url(/images/verde.jpeg);
+    background-image: url(../images/verde.jpeg);
     background-size: 100% 100%;
     height: 100vh;
     width: 80%;
